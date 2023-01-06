@@ -1,0 +1,171 @@
+/* Default CSS */
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  background: #F15B22;
+  border-radius: 5px;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #F15B22;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+/* Header CSS */
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.banner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.banner-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+}
+
+.banner-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  margin: 24px 0px 32px 0px;
+}
+
+/* Main CSS Start*/
+
+/* My Failure Section */
+.my-failure-wrapper {
+  padding: 65px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 87px;
+}
+
+.my-failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+
+.my-failure-description {
+  margin: 24px 0px 16px;
+}
+
+.my-failure-list {
+  padding: 0px;
+  margin: 0px;
+}
+.my-failure-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.my-failure-list li:last-child {
+  margin-bottom: 0px;
+}
+
+.my-failure-list li img {
+  margin-right: 10px;
+}
+
+/* My Plans Section */
+.my-plans-wrapper {
+  padding: 65px 0px;
+}
+
+.my-plans-section-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  text-align: center;
+}
+
+.my-plans-items {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my-plans-item {
+  text-align: center;
+}
+
+.my-plans-item-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #151414;
+  margin: 24px 0px 16px;
+}
+
+/* Call To Action CSS */
+.cta_wrapper {
+  margin: 65px 0px 130px;
+  padding: 60px 65px;
+  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.cta-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+
+/* Main CSS End*/
