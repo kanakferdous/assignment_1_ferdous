@@ -136,6 +136,7 @@ body {
 
 .my-failure-description {
   margin: 24px 0px 16px;
+  color: #444343;
 }
 
 .my-failure-list {
@@ -189,6 +190,10 @@ body {
   line-height: 35px;
   color: #151414;
   margin: 24px 0px 16px;
+}
+
+.my-plans-item p {
+  color: #737272;
 }
 
 /* Call To Action CSS */
