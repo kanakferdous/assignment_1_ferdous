@@ -51,6 +51,10 @@ body {
   align-items: center;
 }
 
+.banner.banner-v2 {
+  background-image: url(./images/banner/banner2.png);
+}
+
 .banner-wrapper {
   max-width: 525px;
   margin-left: auto;
